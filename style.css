@@ -1,0 +1,91 @@
+.header-container {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lbutton {
+    display: flex;
+    align-self: flex-end;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: rgb(185, 185, 185);
+    background-image:linear-gradient(0,rgb(197, 196, 196),white);
+    border-width: 2px;
+    text-align: center;
+}
+
+.cnetLogo {
+    display: flex;
+    align-self: flex-start;
+    padding-left: 40%;
+    padding-right: 40%;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    max-width: 100%;
+}
+
+.form-container {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(204, 204, 204);
+    box-shadow: 0px 15px 10px -10px rgb(163, 163, 163); /*horizontal vertical radius spread color*/
+    border: none;
+}
+
+.form-container h1 {
+    margin-top: 0;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.form-item {
+    display: flex;
+    margin: 5px;
+    flex: initial; /*The item is sized according to its width and height properties. It shrinks to its minimum size to fit the container, but does not grow to absorb any extra free space in the flex container. This is equivalent to setting "flex: 0 1 auto"*/
+}
+
+.button {
+    display: flex;
+    align-self: flex-start;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: rgb(185, 185, 185);
+    background-image:linear-gradient(0,rgb(197, 196, 196),white);
+    border-width: 2px;
+    text-align: center;
+}
+
+.table-container {
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    align-items:flex-start;
+    border: none;
+}
+
+.table-container h2 {
+    display: flex;
+    align-self: flex-start;
+    font-size: x-small;
+    text-align: left;
+}
+
+.table, th, td {
+    position: relative;
+    border: 2px inset rgb(204, 204, 204);
+    text-align: center;
+}
